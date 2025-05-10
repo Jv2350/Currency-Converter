@@ -45,7 +45,7 @@ function App() {
                 label="From"
                 amount={amount}
                 currencyOptions={options}
-                onCurrencyChange={(currency) => setAmount(amount)}
+                onCurrencyChange={(currency) => setFrom(currency)}
                 onAmountChange={(amount) => setAmount(amount)}
                 selectCurrency={from}
               />
